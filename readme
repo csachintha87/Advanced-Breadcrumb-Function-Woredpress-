@@ -1,0 +1,26 @@
+To add breadcrumbs without a plugin
+
+✅ Parent → Child Pages
+✅ Posts with Categories
+✅ Custom Post Types (CPT)
+✅ Custom Taxonomies
+✅ Taxonomy Terms hierarchy
+
+This solution dynamically builds the full hierarchy across WordPress content types.
+
+
+Step 1 — Add Advanced Breadcrumb Function
+
+Go to:
+
+Appearance → Theme File Editor → functions.php
+
+Step 2 — Display Breadcrumbs in Theme
+
+Now open:
+
+header.php
+
+Add This code:
+
+<?php advanced_custom_breadcrumbs(); ?>
